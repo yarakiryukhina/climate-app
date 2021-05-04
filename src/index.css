@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Baskervville', 'Libre Baskerville', 'Georgia', serif;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1em;
+    height: 3px;
+    background: rgba(255, 200, 0, 1);
+    bottom: 0;
+}
+
+.lead {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}
+
+.navbar.fixed-top {
+    padding: 0 !important;
+}
+.navbar-toggler-icon {
+    background-color: rgba(255, 195, 0, 1) !important;
+    border-radius: 3px;
+}
+
+.bg-light-2 {
+    background-color: #f5f6f7;
+}
+
+@media (min-width: 992px) {
+    .px-lg-6 {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+}
+
+#basic-navbar-nav .nav-pills .nav-item .nav-link {
+    font-family: 'Baskervville', 'Libre Baskerville', 'Georgia', serif;
+    font-weight: bold;
+    color: #fff;
+    padding: .2rem 0.7rem !important;
+}
+#basic-navbar-nav .nav-pills .nav-item:hover {
+    background-color: rgba(255, 195, 0, .3);
+}
+#basic-navbar-nav .nav-pills .active.nav-item {
+    background-color: rgba(255, 195, 0, .6);
+}
+
+#gp-forest-rus {
+    background-image: url('./Images/gp-forest-rus.jpg');
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#one-exajoule .h1 {
+    /*font-size: 2rem;*/
+}
+
+#polar-ice p {
+    font-size: 0.8rem;
+}
+
+#polls h3 {
+    border-bottom-width: 0px !important;
+    font-weight: normal !important;
+}
+#polls button, #polls ul > li > div {
+    border-width: 1px !important;
+    font-weight: normal !important;
+}
+
+/**
+ *  Header
+ */
+
+.masthead {
+    height: 100vh;
+    min-height: 300px;
+    background-image: url('./Images/novayazemlya.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.masthead::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.masthead h1 span, .masthead p span {
+    background-color: rgba(255,195,0, 0.7);
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    line-height: 150%;
+    border-radius: 3px;
+}
+
+.masthead h1 {
+    font-size: 3em;
+}
+.masthead p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/**
+ *  "Scroll down" animated icon
+ */
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto;
+	width: 24px;
+	height: 100px;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+}
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 2px solid rgb(255,195,0);
+  border-bottom: 2px solid rgb(255,195,0);
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+
+.unu
+{
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid rgb(255,195,0);
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: white;
+  position: relative;
+  height: 4px;
+  width: 4px;
+  border: 2px solid rgb(255,195,0);
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel{
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0%   { top: 1px; }
+  25%  { top: 2px; }
+  50%  { top: 3px;}
+  75%  { top: 2px;}
+  100% { top: 1px;}
+}
+@-o-keyframes mouse-wheel {
+   0%  { top: 1px; }
+  25%  { top: 2px; }
+  50%  { top: 3px;}
+  75%  { top: 2px;}
+  100% { top: 1px;}
+}
+@keyframes mouse-wheel {
+    0% { top: 1px; }
+   25% { top: 2px; }
+   50% { top: 3px;}
+   75% { top: 2px;}
+  100% { top: 1px;}
+}
+
+@-webkit-keyframes mouse-scroll {
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+
+
+/**
+ *  Blockquote
+ */
+
+blockquote {
+    font-family: "Baskervville", "Libre Baskerville", serif;
+    background: rgba(255, 200, 0, 0.1);
+    border-left: 2px solid rgba(255, 200, 0, 0.5);
+    border-right: 2px solid rgba(255, 200, 0, 0.5);
+    padding: 1.2em 1.1em 1em 1.2em;
+    font-style: italic;
+    font-size: 110%;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+blockquote::before {
+    color: rgba(255, 200, 0, 5);
+    content: "\201C";
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+.blockquote-footer {
+    font-style: normal;
+    margin-top: 0.5em;
+}
+

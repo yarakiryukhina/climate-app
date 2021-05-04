@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e8e2cc24.chunk.css",
+    "main.js": "./static/js/main.1e3f5517.chunk.js",
+    "main.js.map": "./static/js/main.1e3f5517.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.92e6d5e2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.92e6d5e2.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.02007ca5.chunk.js": "./static/js/2.02007ca5.chunk.js",
+    "static/js/2.02007ca5.chunk.js.map": "./static/js/2.02007ca5.chunk.js.map",
+    "static/js/3.06fe0101.chunk.js": "./static/js/3.06fe0101.chunk.js",
+    "static/js/3.06fe0101.chunk.js.map": "./static/js/3.06fe0101.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e8e2cc24.chunk.css.map": "./static/css/main.e8e2cc24.chunk.css.map",
+    "static/js/2.02007ca5.chunk.js.LICENSE.txt": "./static/js/2.02007ca5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/novayazemlya.f39c5694.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92e6d5e2.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.02007ca5.chunk.js",
+    "static/css/main.e8e2cc24.chunk.css",
+    "static/js/main.1e3f5517.chunk.js"
+  ]
+}
